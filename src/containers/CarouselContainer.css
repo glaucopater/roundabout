@@ -1,0 +1,10 @@
+.carousel-container { 
+    background: #EAEEE7;
+    margin: 5px;
+    padding: 40px;
+}
+h1 {
+    color: #276696;
+    text-align: left;
+    font-family: 'Ropa Sans', sans-serif;
+}

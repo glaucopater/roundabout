@@ -1,0 +1,33 @@
+.arrow {
+    background: #3F729D;
+    display: inline-block;
+    cursor: pointer;
+    margin: 0 8px;
+    color: white;
+    padding:8px;
+    text-transform: capitalize;
+}
+.arrow::focus{
+    color:red;
+}
+.prev {
+    border-radius: 9px 0 0 9px;
+}
+
+.next {
+    border-radius:  0 9px 9px 0;
+}
+/*
+.prev::before {
+    content: " << ";
+}
+
+.next::before {
+    content: " >> ";
+}*/
+
+.disabled {
+    opacity: 0.5;
+    cursor: default;
+}
+
